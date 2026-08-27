@@ -3,6 +3,37 @@
     <channel>
         <title>Foundation</title>
         <item>
+            <title>0.6.0</title>
+            <pubDate>Thu, 27 Aug 2026 17:01:56 +0000</pubDate>
+            <link>https://foundation.trychroma.com</link>
+            <sparkle:version>33095565944</sparkle:version>
+            <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# v0.6.0 (2026-08-27)
+
+Signed and notarized Release build of Foundation for macOS arm64.
+
+Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
+
+Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
+
+## Opening the app
+
+Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
+
+## Changes
+
+* [BUG](mac): Let an empty backfill plan apply (#485)
+* [TST](sync-client): Fix upload-cap peak over-count flake (#483)
+* [ENH](coding-agent): Add a local pipeline report (#484)
+* [ENH](mac): Expose the backfill plan over the bridge (#477)
+* [ENH](coding-agent): Enforce per-repo backfill cutoffs (#476)
+* [ENH](coding-agent): Add backfill budget planner (#480)
+* [ENH](coding-agent): Clean session traces (#479)]]></description>
+            <enclosure url="https://install.foundation/mac/foundation-mac-v0.6.0_darwin_arm64.dmg" length="26914235" type="application/octet-stream" sparkle:edSignature="qF1e2kP3GZ+HfrVY5UDVYoav5UvH2M9rJDcFCyxYCLQDV/vxQEmMMvXiNdlvWUego9usqw9O3KefWAYqQYRFDg=="/>
+        </item>
+        <item>
             <title>0.5.24</title>
             <pubDate>Wed, 26 Aug 2026 20:25:10 +0000</pubDate>
             <link>https://foundation.trychroma.com</link>
@@ -53,35 +84,6 @@ Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads sh
 * [ENH](mac): Install the Slack bot from the default browser (#458)
 * [ENH](foundation-core): Per-function Slack flags, hourly walk (#459)]]></description>
             <enclosure url="https://install.foundation/mac/foundation-mac-v0.5.23_darwin_arm64.dmg" length="26725964" type="application/octet-stream" sparkle:edSignature="Sn93RJj/EYavhCDj99HF5bb43xvkzTqHbiPg4Vvj3j10SFnQbv/WDPjLHWYAQVemcB8gTIqgW/VA6rMJEPA+Dg=="/>
-        </item>
-        <item>
-            <title>0.5.22</title>
-            <pubDate>Tue, 25 Aug 2026 16:53:32 +0000</pubDate>
-            <link>https://foundation.trychroma.com</link>
-            <sparkle:version>32873828915</sparkle:version>
-            <sparkle:shortVersionString>0.5.22</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# v0.5.22 (2026-08-25)
-
-Signed and notarized Release build of Foundation for macOS arm64.
-
-Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
-
-Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
-
-## Opening the app
-
-Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
-
-## Changes
-
-* [ENH](coding-agents): Add parent metadata (#465)
-* [ENH](coding-agents): Match parent paths (#464)
-* [ENH](coding-agents): Group directory parents (#463)
-* [ENH](coding-agents): Sanitize Git origins (#461)
-* [ENH](coding-agents): Add directory classifier (#460)]]></description>
-            <enclosure url="https://github.com/chroma-core/foundation-releases/releases/download/foundation-mac-v0.5.22/foundation-mac-v0.5.22_darwin_arm64.dmg" length="26618206" type="application/octet-stream" sparkle:edSignature="5saZdm0H8tFWOgc3up4OKle/NEiKmjcOQUNlU13aQvnsCZnDAVVTYSqpm4EzW4fopHX7sXmDe+Q6E1I7Qxa4Cw=="/>
         </item>
     </channel>
 </rss>
