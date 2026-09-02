@@ -3,6 +3,33 @@
     <channel>
         <title>Foundation</title>
         <item>
+            <title>0.6.1</title>
+            <pubDate>Wed, 02 Sep 2026 19:27:01 +0000</pubDate>
+            <link>https://foundation.trychroma.com</link>
+            <sparkle:version>33672502200</sparkle:version>
+            <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# v0.6.1 (2026-09-02)
+
+Signed and notarized Release build of Foundation for macOS arm64.
+
+Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
+
+Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
+
+## Opening the app
+
+Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
+
+## Changes
+
+* [BUG](sync): Park the sync worker on a rejected credential (#490)
+* [BUG](mac): Probe stored key before restore (#489)
+* [ENH](foundation-core): Backfill rate $0.025/chunk (#487)]]></description>
+            <enclosure url="https://install.foundation/mac/foundation-mac-v0.6.1_darwin_arm64.dmg" length="26917988" type="application/octet-stream" sparkle:edSignature="0k6nVRqaCaKVEU4KoPVKPYGUIFk5HTTj3mA7tEH0e77vPWEOHO+5WOZfj9YZvnasrVUuOdRRC3sZDOO/WH7sCA=="/>
+        </item>
+        <item>
             <title>0.6.0</title>
             <pubDate>Thu, 27 Aug 2026 17:01:56 +0000</pubDate>
             <link>https://foundation.trychroma.com</link>
@@ -57,33 +84,6 @@ Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads sh
 
 * [ENH](coding-agent): Rank repositories by activity (#474)]]></description>
             <enclosure url="https://install.foundation/mac/foundation-mac-v0.5.24_darwin_arm64.dmg" length="26793408" type="application/octet-stream" sparkle:edSignature="miaNJQOlfl4x6JEcd6TljclnviFb2K6E+v5ht2h41DJ1y051D+A80B3ElnF3+1L/zpT/ZEsULNwet2X0q9OCCw=="/>
-        </item>
-        <item>
-            <title>0.5.23</title>
-            <pubDate>Wed, 26 Aug 2026 20:10:03 +0000</pubDate>
-            <link>https://foundation.trychroma.com</link>
-            <sparkle:version>33008304431</sparkle:version>
-            <sparkle:shortVersionString>0.5.23</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# v0.5.23 (2026-08-26)
-
-Signed and notarized Release build of Foundation for macOS arm64.
-
-Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
-
-Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
-
-## Opening the app
-
-Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
-
-## Changes
-
-* [ENH](mac): Point Sparkle at install.foundation (#481)
-* [ENH](mac): Install the Slack bot from the default browser (#458)
-* [ENH](foundation-core): Per-function Slack flags, hourly walk (#459)]]></description>
-            <enclosure url="https://install.foundation/mac/foundation-mac-v0.5.23_darwin_arm64.dmg" length="26725964" type="application/octet-stream" sparkle:edSignature="Sn93RJj/EYavhCDj99HF5bb43xvkzTqHbiPg4Vvj3j10SFnQbv/WDPjLHWYAQVemcB8gTIqgW/VA6rMJEPA+Dg=="/>
         </item>
     </channel>
 </rss>
