@@ -3,6 +3,36 @@
     <channel>
         <title>Foundation</title>
         <item>
+            <title>0.6.2</title>
+            <pubDate>Wed, 09 Sep 2026 17:13:52 +0000</pubDate>
+            <link>https://foundation.trychroma.com</link>
+            <sparkle:version>34380099499</sparkle:version>
+            <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# v0.6.2 (2026-09-09)
+
+Signed and notarized Release build of Foundation for macOS arm64.
+
+Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
+
+Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
+
+## Opening the app
+
+Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
+
+## Changes
+
+* [ENH](mac): Show poll age and errors in sync panel (#500)
+* [BUG](foundation-core): Time out status requests (#499)
+* [ENH](sync): Send direction tag on Slack ingest (#493)
+* [ENH](sync): Send direction tag on trace uploads (#492)
+* [CHORE](sync): Split sync client by endpoint family (#497)
+* [CHORE](sync): Split coding-agent sweep by phase (#495)]]></description>
+            <enclosure url="https://install.foundation/mac/foundation-mac-v0.6.2_darwin_arm64.dmg" length="26930986" type="application/octet-stream" sparkle:edSignature="ujWY060yzW5JjVbjTrXkKP+jh/bZzqEb2dTRBEt1h0metQd7cFuCjr3nWJVH9MaaPa5sEDY31LoTudFcOKKACw=="/>
+        </item>
+        <item>
             <title>0.6.1</title>
             <pubDate>Wed, 02 Sep 2026 19:27:01 +0000</pubDate>
             <link>https://foundation.trychroma.com</link>
@@ -59,31 +89,6 @@ Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads sh
 * [ENH](coding-agent): Add backfill budget planner (#480)
 * [ENH](coding-agent): Clean session traces (#479)]]></description>
             <enclosure url="https://install.foundation/mac/foundation-mac-v0.6.0_darwin_arm64.dmg" length="26914235" type="application/octet-stream" sparkle:edSignature="qF1e2kP3GZ+HfrVY5UDVYoav5UvH2M9rJDcFCyxYCLQDV/vxQEmMMvXiNdlvWUego9usqw9O3KefWAYqQYRFDg=="/>
-        </item>
-        <item>
-            <title>0.5.24</title>
-            <pubDate>Wed, 26 Aug 2026 20:25:10 +0000</pubDate>
-            <link>https://foundation.trychroma.com</link>
-            <sparkle:version>33009593832</sparkle:version>
-            <sparkle:shortVersionString>0.5.24</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# v0.5.24 (2026-08-26)
-
-Signed and notarized Release build of Foundation for macOS arm64.
-
-Defaults to production (`https://foundation.trychroma.com`). Uses the saved default CLI profile.
-
-Includes a bundled `foundation` CLI at `Foundation.app/Contents/Resources/foundation` (same version as this Mac release).
-
-## Opening the app
-
-Open the `.dmg` and drag `Foundation.app` onto Applications. Direct downloads should open normally (Developer ID + notarized).
-
-## Changes
-
-* [ENH](coding-agent): Rank repositories by activity (#474)]]></description>
-            <enclosure url="https://install.foundation/mac/foundation-mac-v0.5.24_darwin_arm64.dmg" length="26793408" type="application/octet-stream" sparkle:edSignature="miaNJQOlfl4x6JEcd6TljclnviFb2K6E+v5ht2h41DJ1y051D+A80B3ElnF3+1L/zpT/ZEsULNwet2X0q9OCCw=="/>
         </item>
     </channel>
 </rss>
